@@ -6,6 +6,5 @@ function printNumber(number) {
 var button = document.getElementById("button");
 
 button.onclick = function() {
-  var result = 1;
-  printNumber(result);
+  printNumber(dice.roll());
 };
